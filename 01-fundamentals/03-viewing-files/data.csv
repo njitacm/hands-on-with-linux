@@ -1,0 +1,21 @@
+id,name,department,role,start_date
+1,Alice Chen,Engineering,Backend Developer,2023-01-15
+2,Bob Martinez,Engineering,Frontend Developer,2023-03-01
+3,Carol Williams,Design,UX Designer,2022-11-20
+4,David Kim,Engineering,DevOps Engineer,2024-02-10
+5,Eve Johnson,Security,Security Analyst,2023-06-05
+6,Frank Brown,Engineering,Backend Developer,2022-08-14
+7,Grace Lee,Design,UI Designer,2024-01-08
+8,Henry Davis,Engineering,Full Stack Developer,2023-09-22
+9,Ivy Wilson,Marketing,Content Strategist,2023-04-17
+10,Jack Taylor,Engineering,Site Reliability Engineer,2022-12-01
+11,Karen White,Design,Design Lead,2021-07-30
+12,Leo Garcia,Engineering,Backend Developer,2024-03-15
+13,Maria Lopez,Security,Penetration Tester,2023-08-11
+14,Nathan Park,Engineering,Frontend Developer,2023-11-05
+15,Olivia Scott,Marketing,Marketing Manager,2022-05-20
+16,Peter Adams,Engineering,Platform Engineer,2024-01-22
+17,Quinn Roberts,Design,Motion Designer,2023-07-14
+18,Rachel Turner,Engineering,Data Engineer,2023-02-28
+19,Sam Mitchell,Security,Security Engineer,2024-04-01
+20,Tina Campbell,Engineering,Engineering Manager,2021-03-10

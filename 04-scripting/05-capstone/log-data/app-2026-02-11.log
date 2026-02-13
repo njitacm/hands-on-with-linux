@@ -1,0 +1,19 @@
+[2026-02-11 08:00:01] INFO  Application started
+[2026-02-11 08:10:15] INFO  User login: alice
+[2026-02-11 08:20:30] INFO  User login: eve
+[2026-02-11 09:00:00] INFO  Scheduled backup started
+[2026-02-11 09:04:55] INFO  Scheduled backup completed
+[2026-02-11 09:30:00] ERROR Authentication failed: user=admin ip=10.0.0.50
+[2026-02-11 09:30:01] ERROR Authentication failed: user=admin ip=10.0.0.50
+[2026-02-11 09:30:02] ERROR Authentication failed: user=root ip=10.0.0.50
+[2026-02-11 09:30:02] WARN  Brute force detected: ip=10.0.0.50
+[2026-02-11 10:00:00] INFO  User login: bob
+[2026-02-11 10:30:00] INFO  User login: frank
+[2026-02-11 11:00:00] WARN  High memory usage: 88%
+[2026-02-11 12:00:00] INFO  User logout: alice
+[2026-02-11 13:00:00] INFO  User logout: eve
+[2026-02-11 14:22:10] ERROR Unhandled exception in /api/reports
+[2026-02-11 14:22:11] INFO  Error logged and reported
+[2026-02-11 15:00:00] INFO  User login: carol
+[2026-02-11 16:30:00] INFO  User logout: bob
+[2026-02-11 17:00:00] INFO  Application shutting down gracefully

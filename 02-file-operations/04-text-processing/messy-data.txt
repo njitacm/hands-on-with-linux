@@ -1,0 +1,8 @@
+John Smith;Engineering;john.smith@example.com;555-0101
+Jane Doe;Marketing;jane.doe@example.com;555-0102
+Bob Wilson;Engineering;bob.wilson@example.com;555-0103
+Alice Brown;Design;alice.brown@example.com;555-0104
+Charlie Davis;Engineering;charlie.davis@example.com;555-0105
+Diana Evans;Marketing;diana.evans@example.com;555-0106
+Edward Foster;Design;edward.foster@example.com;555-0107
+Fiona Garcia;Engineering;fiona.garcia@example.com;555-0108

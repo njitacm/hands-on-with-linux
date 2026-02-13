@@ -1,0 +1,16 @@
+date,region,product,quantity,unit_price,salesperson
+2026-01-05,Northeast,Widget A,150,29.99,Alice Chen
+2026-01-05,Southeast,Widget B,75,49.99,Bob Martinez
+2026-01-06,West,Widget A,200,29.99,Carol Williams
+2026-01-06,Midwest,Widget C,50,99.99,David Kim
+2026-01-07,Northeast,Widget B,120,49.99,Alice Chen
+2026-01-07,West,Widget A,180,29.99,Eve Johnson
+2026-01-08,Southeast,Widget C,30,99.99,Bob Martinez
+2026-01-08,Midwest,Widget A,90,29.99,Frank Brown
+2026-01-09,Northeast,Widget A,210,29.99,Alice Chen
+2026-01-09,West,Widget B,95,49.99,Carol Williams
+2026-01-10,Southeast,Widget A,60,29.99,Grace Lee
+2026-01-10,Midwest,Widget B,110,49.99,David Kim
+2026-01-11,Northeast,Widget C,45,99.99,Alice Chen
+2026-01-11,West,Widget A,175,29.99,Eve Johnson
+2026-01-12,Southeast,Widget B,85,49.99,Bob Martinez

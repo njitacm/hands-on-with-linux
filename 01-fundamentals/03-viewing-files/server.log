@@ -1,0 +1,54 @@
+[2026-02-11 08:00:01] INFO  Server starting on port 8080
+[2026-02-11 08:00:01] INFO  Loading configuration from /etc/app/config.yml
+[2026-02-11 08:00:02] INFO  Database connection established (PostgreSQL 15.2)
+[2026-02-11 08:00:02] INFO  Redis cache connected on localhost:6379
+[2026-02-11 08:00:03] INFO  Initializing authentication module
+[2026-02-11 08:00:03] INFO  Loading TLS certificates from /etc/ssl/certs/
+[2026-02-11 08:00:03] INFO  Server ready. Accepting connections.
+[2026-02-11 08:01:15] INFO  GET /api/health 200 OK (2ms)
+[2026-02-11 08:01:30] INFO  GET /api/users 200 OK (45ms)
+[2026-02-11 08:02:01] INFO  POST /api/login 200 OK (120ms) user=alice
+[2026-02-11 08:02:15] WARN  Rate limit approaching for IP 192.168.1.50 (85/100 requests)
+[2026-02-11 08:02:30] INFO  GET /api/users/profile 200 OK (30ms) user=alice
+[2026-02-11 08:03:00] INFO  GET /api/health 200 OK (1ms)
+[2026-02-11 08:03:22] ERROR Failed to process request: timeout connecting to payment service
+[2026-02-11 08:03:22] ERROR Stack trace: ConnectionTimeoutError at PaymentClient.connect()
+[2026-02-11 08:03:45] INFO  POST /api/login 200 OK (95ms) user=bob
+[2026-02-11 08:04:00] INFO  GET /api/health 200 OK (2ms)
+[2026-02-11 08:04:10] WARN  Slow query detected: SELECT * FROM orders WHERE... (2340ms)
+[2026-02-11 08:04:30] INFO  GET /api/orders 200 OK (2380ms) user=bob
+[2026-02-11 08:05:00] INFO  GET /api/health 200 OK (1ms)
+[2026-02-11 08:05:15] INFO  POST /api/users 201 Created (85ms) user=carol
+[2026-02-11 08:05:30] ERROR Authentication failed for user=admin from IP 10.0.0.99
+[2026-02-11 08:05:31] ERROR Authentication failed for user=admin from IP 10.0.0.99
+[2026-02-11 08:05:31] ERROR Authentication failed for user=root from IP 10.0.0.99
+[2026-02-11 08:05:32] WARN  Multiple failed login attempts from IP 10.0.0.99 (3 in 2s)
+[2026-02-11 08:05:32] WARN  IP 10.0.0.99 temporarily blocked (30 minute cooldown)
+[2026-02-11 08:06:00] INFO  GET /api/health 200 OK (2ms)
+[2026-02-11 08:06:10] INFO  PUT /api/users/profile 200 OK (55ms) user=alice
+[2026-02-11 08:06:30] INFO  DELETE /api/sessions/expired 200 OK (15ms) count=23
+[2026-02-11 08:07:00] INFO  GET /api/health 200 OK (1ms)
+[2026-02-11 08:07:15] INFO  Scheduled task: cleanup_temp_files started
+[2026-02-11 08:07:16] INFO  Scheduled task: cleanup_temp_files completed (removed 47 files)
+[2026-02-11 08:07:30] INFO  GET /api/orders 200 OK (38ms) user=carol
+[2026-02-11 08:08:00] INFO  GET /api/health 200 OK (2ms)
+[2026-02-11 08:08:20] WARN  Disk usage at 82% on /var/data
+[2026-02-11 08:08:45] INFO  POST /api/orders 201 Created (110ms) user=alice
+[2026-02-11 08:09:00] INFO  GET /api/health 200 OK (1ms)
+[2026-02-11 08:09:15] INFO  GET /api/reports/daily 200 OK (520ms)
+[2026-02-11 08:09:30] ERROR Database connection pool exhausted (max: 20, active: 20, waiting: 5)
+[2026-02-11 08:09:31] WARN  Scaling database connection pool to 30
+[2026-02-11 08:09:32] INFO  Database connection pool resized successfully
+[2026-02-11 08:10:00] INFO  GET /api/health 200 OK (2ms)
+[2026-02-11 08:10:15] INFO  POST /api/login 200 OK (88ms) user=david
+[2026-02-11 08:10:30] INFO  GET /api/users 200 OK (42ms) user=david
+[2026-02-11 08:10:45] INFO  WebSocket connection established: user=alice channel=notifications
+[2026-02-11 08:11:00] INFO  GET /api/health 200 OK (1ms)
+[2026-02-11 08:11:10] INFO  Backup started: database snapshot
+[2026-02-11 08:11:45] INFO  Backup completed: database snapshot (35s, 2.4GB)
+[2026-02-11 08:12:00] INFO  GET /api/health 200 OK (2ms)
+[2026-02-11 08:12:20] INFO  POST /api/logout 200 OK (10ms) user=bob
+[2026-02-11 08:12:30] ERROR Unhandled exception in /api/reports/generate: OutOfMemoryError
+[2026-02-11 08:12:30] ERROR Heap space: 95% utilized (1.9GB / 2.0GB)
+[2026-02-11 08:12:31] WARN  Triggering garbage collection
+[2026-02-11 08:12:32] INFO  GC completed. Heap space: 45% utilized (0.9GB / 2.0GB)

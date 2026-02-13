@@ -1,0 +1,16 @@
+id,name,email,major,gpa,year
+1,Alice Chen,alice.chen@university.edu,Computer Science,3.8,3
+2,Bob Martinez,bob.martinez@university.edu,Electrical Engineering,3.2,2
+3,Carol Williams,carol.w@university.edu,Computer Science,3.9,4
+4,David Kim,david.kim@university.edu,Mathematics,3.5,2
+5,Eve Johnson,eve.j@university.edu,Computer Science,3.1,1
+6,Frank Brown,frank.b@university.edu,Physics,3.7,3
+7,Grace Lee,grace.lee@university.edu,Computer Science,3.6,4
+8,Henry Davis,henry.d@university.edu,Electrical Engineering,2.9,1
+9,Ivy Wilson,ivy.w@university.edu,Mathematics,3.4,2
+10,Jack Taylor,jack.t@university.edu,Computer Science,3.3,3
+11,Karen White,karen.w@university.edu,Physics,3.8,4
+12,Leo Garcia,leo.g@university.edu,Computer Science,2.7,1
+13,Maria Lopez,maria.l@university.edu,Electrical Engineering,3.6,3
+14,Nathan Park,nathan.p@university.edu,Mathematics,3.9,4
+15,Olivia Scott,olivia.s@university.edu,Computer Science,3.5,2

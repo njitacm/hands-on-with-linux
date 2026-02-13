@@ -1,0 +1,8 @@
+Public Information
+==================
+
+This file is meant to be readable by everyone.
+It contains no sensitive data.
+
+Workshop: Linux Crash Course
+Organization: ACM

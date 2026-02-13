@@ -1,0 +1,20 @@
+[2026-02-13 08:00:01] INFO  Application starting
+[2026-02-13 08:00:02] INFO  Database connected successfully
+[2026-02-13 08:00:03] INFO  Server listening on port 8080
+[2026-02-13 08:05:12] INFO  User login: alice (success)
+[2026-02-13 08:05:30] INFO  GET /api/users 200 (35ms)
+[2026-02-13 08:06:01] WARN  Slow query detected (1250ms)
+[2026-02-13 08:06:45] ERROR Database connection lost
+[2026-02-13 08:06:46] INFO  Attempting database reconnection...
+[2026-02-13 08:06:47] INFO  Database reconnected successfully
+[2026-02-13 08:07:00] INFO  User login: bob (success)
+[2026-02-13 08:07:15] ERROR Authentication failed: user=admin ip=10.0.0.99
+[2026-02-13 08:07:16] ERROR Authentication failed: user=admin ip=10.0.0.99
+[2026-02-13 08:07:16] WARN  Brute force detected from ip=10.0.0.99
+[2026-02-13 08:08:00] INFO  Scheduled cleanup: removed 12 expired sessions
+[2026-02-13 08:10:22] INFO  User login: carol (success)
+[2026-02-13 08:12:00] INFO  GET /api/reports 200 (520ms)
+[2026-02-13 08:15:00] WARN  Memory usage at 78%
+[2026-02-13 08:20:01] ERROR Unhandled exception in /api/export: FileNotFoundError
+[2026-02-13 08:20:02] INFO  Error reported to monitoring service
+[2026-02-13 08:25:00] INFO  Health check: all systems operational

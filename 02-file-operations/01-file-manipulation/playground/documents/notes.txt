@@ -1,0 +1,12 @@
+Meeting Notes - Feb 10, 2026
+============================
+
+Attendees: Alice, Bob, Carol, David
+
+Action Items:
+1. Alice - Finalize the deployment script by Friday
+2. Bob - Review pull request #247 and provide feedback
+3. Carol - Update documentation for the new API endpoints
+4. David - Set up monitoring dashboards for production
+
+Next meeting: Feb 17, 2026 at 2:00 PM

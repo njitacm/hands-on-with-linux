@@ -1,0 +1,17 @@
+#!/bin/bash
+# What am I? Try running: file mystery
+
+echo "A shell script!"
+echo ""
+echo "You used the 'file' command to figure out that"
+echo "this file is actually a bash script, even though"
+echo "it has no .sh extension."
+echo ""
+echo "The 'file' command looks at a file's contents to"
+echo "determine its type — it doesn't rely on the"
+echo "extension. This is really useful when you come"
+echo "across files that aren't named clearly."
+echo ""
+echo "  Your user:     $(whoami)"
+echo "  Current time:  $(date)"
+echo "  This file:     $0"

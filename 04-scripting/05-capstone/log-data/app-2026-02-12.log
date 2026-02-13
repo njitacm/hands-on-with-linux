@@ -1,0 +1,22 @@
+[2026-02-12 08:00:01] INFO  Application started
+[2026-02-12 08:05:10] INFO  User login: alice
+[2026-02-12 08:15:20] INFO  User login: bob
+[2026-02-12 08:30:00] INFO  User login: carol
+[2026-02-12 09:00:00] INFO  Scheduled backup started
+[2026-02-12 09:06:30] INFO  Scheduled backup completed
+[2026-02-12 09:45:00] WARN  Slow query: SELECT * FROM orders (3200ms)
+[2026-02-12 10:00:00] ERROR Database connection pool exhausted
+[2026-02-12 10:00:05] WARN  Scaling connection pool
+[2026-02-12 10:00:10] INFO  Connection pool resized successfully
+[2026-02-12 10:30:00] INFO  User login: david
+[2026-02-12 11:00:00] INFO  User login: eve
+[2026-02-12 12:00:00] INFO  User logout: alice
+[2026-02-12 13:00:00] WARN  Disk usage at 92%
+[2026-02-12 13:15:00] INFO  Disk cleanup: removed 2.3GB of temp files
+[2026-02-12 14:00:00] INFO  User logout: carol
+[2026-02-12 14:30:00] ERROR External API timeout: payment-service
+[2026-02-12 14:30:10] INFO  External API recovered: payment-service
+[2026-02-12 15:00:00] INFO  User login: frank
+[2026-02-12 16:00:00] INFO  User logout: bob
+[2026-02-12 16:30:00] INFO  User logout: david
+[2026-02-12 17:00:00] INFO  Application shutting down gracefully

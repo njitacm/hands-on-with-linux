@@ -1,0 +1,7 @@
+timestamp,event,status
+2026-02-01 08:00,backup_started,ok
+2026-02-01 08:15,backup_completed,ok
+2026-02-02 08:00,backup_started,ok
+2026-02-02 08:17,backup_completed,ok
+2026-02-03 08:00,backup_started,ok
+2026-02-03 08:14,backup_completed,ok

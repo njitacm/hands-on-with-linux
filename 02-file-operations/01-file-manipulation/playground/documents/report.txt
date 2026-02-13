@@ -1,0 +1,16 @@
+Quarterly Sales Report - Q4 2025
+=================================
+
+Region      | Q3 Sales  | Q4 Sales  | Change
+------------|-----------|-----------|-------
+Northeast   | $245,000  | $312,000  | +27%
+Southeast   | $198,000  | $205,000  | +4%
+Midwest     | $167,000  | $189,000  | +13%
+West        | $301,000  | $356,000  | +18%
+------------|-----------|-----------|-------
+Total       | $911,000  | $1,062,000| +17%
+
+Notes:
+- Northeast growth driven by new enterprise contracts
+- West region exceeded targets for third consecutive quarter
+- Southeast growth below expectations, review needed

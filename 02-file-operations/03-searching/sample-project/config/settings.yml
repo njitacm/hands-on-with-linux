@@ -1,0 +1,19 @@
+app:
+  name: sample-project
+  version: 1.2.0
+  debug: false
+  port: 8080
+
+database:
+  host: localhost
+  port: 5432
+  name: myapp
+  pool_size: 10
+
+logging:
+  level: INFO
+  file: /var/log/sample-project/app.log
+
+auth:
+  session_timeout: 3600
+  max_attempts: 5

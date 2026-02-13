@@ -1,0 +1,18 @@
+[2026-02-10 08:00:01] INFO  Application started
+[2026-02-10 08:15:22] INFO  User login: alice
+[2026-02-10 08:30:45] WARN  High memory usage: 85%
+[2026-02-10 09:00:00] INFO  Scheduled backup started
+[2026-02-10 09:05:12] INFO  Scheduled backup completed
+[2026-02-10 09:12:33] ERROR Database connection timeout
+[2026-02-10 09:12:35] INFO  Database reconnected
+[2026-02-10 10:00:00] INFO  User login: bob
+[2026-02-10 10:45:00] INFO  User logout: alice
+[2026-02-10 11:22:15] WARN  Disk usage at 90%
+[2026-02-10 12:00:00] INFO  User login: carol
+[2026-02-10 13:30:00] ERROR Payment processing failed: timeout
+[2026-02-10 13:30:05] ERROR Retry 1: Payment processing failed
+[2026-02-10 13:30:10] INFO  Retry 2: Payment processing succeeded
+[2026-02-10 14:00:00] INFO  User logout: bob
+[2026-02-10 15:15:22] INFO  User login: david
+[2026-02-10 16:00:00] WARN  API rate limit approaching: 90%
+[2026-02-10 17:00:00] INFO  Application shutting down gracefully

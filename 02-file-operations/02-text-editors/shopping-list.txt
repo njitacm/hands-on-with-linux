@@ -1,0 +1,13 @@
+Shopping List
+=============
+
+Fruits:
+- Apples
+- Bananas
+
+Dairy:
+- Milk
+- Cheese
+
+Bakery:
+- Bread

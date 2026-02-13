@@ -1,0 +1,8 @@
+web-server-01
+web-server-02
+db-server-01
+db-server-02
+cache-server-01
+api-gateway-01
+api-gateway-02
+monitoring-01

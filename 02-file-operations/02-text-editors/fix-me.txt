@@ -1,0 +1,14 @@
+Teh Quick Browm Fox
+====================
+
+The quikc brown fox jumpd over the layz dog.
+Ths sentece has muliple erors that ned to be fixd.
+
+Compter science is teh study of algoritms and dta structures.
+Linux is a opn source operting systm that powrs most of the internets servers.
+
+Teh commnd line is a powrful tool for manging files and automting tasks.
+Pracice makes perfct!
+
+Fix all the typos in this file using your text editor of choice.
+When you're done, the text should read naturally without any spelling errors.

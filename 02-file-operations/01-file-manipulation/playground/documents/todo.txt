@@ -1,0 +1,10 @@
+TODO List
+=========
+
+[ ] Finish Linux workshop section 2
+[ ] Submit homework for CS101
+[ ] Buy groceries
+[x] Set up development environment
+[x] Read chapter 5 of the textbook
+[ ] Practice vim keybindings
+[ ] Review shell scripting notes
